@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+body{
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #0F1130;
+    background-color: #fff7ce;
+}
+
+.card{
+    border-radius: 7px;
+    background-color: bisque;
+    padding: 5px;
+    
+    padding: 7px 15px;
+    
+        max-width: 750px;
+        margin: auto;
+        margin-top: 10px;
+}
+
+.foto{
+    width: 200px;
+    border-radius: 7px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);.
+    display: inline;
+}
+
+.form{
+    background-color: #FFD073;
+    margin-bottom: 10px;
+}
+
+.form-1{
+    display: inline-block;
+    margin-right: 20px;
+    width: 46%;
+}
+.form-1:last-child{
+    margin-left: 100px;
+}
+.form-1 label{
+    display: block;
+}
+
+.form-1 input, .form-1 textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.tab{
+    background-color: #FFE773;
+}
+
+.ol{
+    background-color: #FFDE40;
+}
+
+.nam{
+    background-color: #fff6e3;
+}
+
+.nam p{
+    margin: 2px;
+}
+a{
+    color:#0F1130;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#FFD073
+}
+
+.btn{
+    background-color: blanchedalmond;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    opacity: 0.7;
+}
+
+.table{
+    width: 100%;
+
+}
+.table td{
+    
+    padding-right: 1px;
+    padding-bottom: 9px;
+}
+.list{
+    padding: 0 18px;
+}
+.list li{
+    margin-bottom: 10px;
+}
+
+.fg{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.box{
+    display: inline-block;
+    padding-left: 30px;
+    width: 65%;
+}
+
+@media(max-width: 720px){
+    .foto{
+        width: 250px;
+        display: block;
+        margin: auto;
+    }
+    
+    .box{
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+
+    .form-1{
+        display: block;
+        margin-top: 10px;
+    }
+}

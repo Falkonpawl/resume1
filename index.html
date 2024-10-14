@@ -6,26 +6,34 @@
     <meta name="keywords"content="Resume, falkonpawl">
     <meta name="description" content="Это сайт Павла">
     <title>Resume</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <img src="IMG_20240930_231051_199.jpg" width="150">
+    <section class="card nam">
+    <img src="IMG_20240930_231051_199.jpg" class="foto">
+    <div class="box">
     <h1>Соколовский Павел</h1>
     <p>Я учусь на <strong>химфаке БГУ </strong></p>
-    <p><em>Я фотограф и люблю Злату</em></p>
+    <p><em>Я фотограф и начинающий програмист</em></p>
     <h4>Список социальных сетей</h4>
-    <a href="https://www.instagram.com/falkonpawl/" target="_blank">Instagram</a>* |
-    <a href="https://t.me/Falkonpawl/" target="_blank">Telegram</a>
+    <a href="#" target="_blank">Instagram</a>* |
+    <a href="#" target="_blank">Telegram</a>
     <hr>
     *запрещено на территории РФ
+    </div>
+    </section>
+
+    <section class="card tab">
     <h2>Опыт работы</h2>
-    <table>
-        <thead>
-        <tr>
-            <th>Название</th>
-            <th>Должность</th>
-            <th>Год</th>
+
+    <table class="table">
+        
+        <tr class="fg">
+            <td>Название</td>
+            <td>Должность</td>
+            <td>Год</td>
         </tr>
-        </thead>
+        
         <tr>
             <td>Школа</td>
             <td>Ученик</td>
@@ -42,31 +50,36 @@
             <td>2018-н.в.</td>
         </tr>
     </table>
+    </section>
+    <section class="card ol">
     <h2>Мои хобби</h2>
-    <ol>
+    <ol class="list">
         <li>Химия</li>
         <li>Фотография</li>
         <li>Программирование</li>
     </ol>
+    </section>
 
+    <section class="card form">
     <h2>Связаться со мной</h2>
-    <form>
-        <div>
+    <form >
+        <div class="form-1">
             <label for="name">Ваше имя:</label>
             <input type="text" id="name" placeholder="Введите имя"> 
         </div>
 
-        <div>
+        <div class="form-1">
             <label for="email1">Ваш email:</label>
             <input type="email" id="email1" placeholder="Введите email"> 
-        </div>
+        </div >
 
-        <div>
+        <div class="form-1">
             <label for="message1">Ваше сообщение:</label>
             <br>
             <textarea name="message" id="message1" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
         </div>
-        <button type="submit">Отправить форму</button>
+        <button type="submit" class="btn">Отправить форму</button>
     </form>
+    </section>
 </body>
 </html>
